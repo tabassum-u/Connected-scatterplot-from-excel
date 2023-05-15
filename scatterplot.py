@@ -18,7 +18,7 @@ df = pd.DataFrame({
 })
 
 # plot
-plt.plot('x_axis', 'y_axis', data=df, linestyle='-')
+plt.plot('x_axis', 'y_axis', data=df, linestyle='-', marker= 'o')
 plt.title('b(Pa) vs a(%)')
 plt.xlabel('a(%)')
 plt.ylabel('b(Pa)')
